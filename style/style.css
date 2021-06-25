@@ -1,4 +1,23 @@
-/* DELETE */
+/* utility */
+img{
+    width: 100%;
+}
+
+.btn-grey{
+    background-color: #363636;
+    color: white;
+}
+
+.btn-orange{
+    background-color: #CD3D0F;
+    color: white;
+}
+
+.rounded-card{
+    border-radius: 15px;
+}
+
+/* HEADER */
 
 #navbarSupportedContent li{
     padding: 0 20px;
@@ -8,7 +27,44 @@
     height: 50px;
     width: 100%;
     background-color: black;
+    position: relative;
 }
+
 #topbar img{
     height: 30%;
+    width: 10%;
+    position: absolute;
+    right: 20px;
+}
+
+/* HERO */
+
+#hero{
+    height: 700px;
+    background-image: url(../img/jumbo-bg-full.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero .row{
+    height: 100%;
+}
+
+#game-logo{
+    width: 90%;
+    position: relative;
+    right: 10px;
+}
+
+#hero {
+    padding-left: 100px;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 768px){
+    #hero{
+        padding: 0;
+    }
 }
