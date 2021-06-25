@@ -1,0 +1,14 @@
+/* DELETE */
+
+#navbarSupportedContent li{
+    padding: 0 20px;
+}
+
+#topbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+#topbar img{
+    height: 30%;
+}
