@@ -1,4 +1,10 @@
+*{
+    font-size: 20px;
+}
+
 /* utility */
+
+
 img{
     width: 100%;
 }
@@ -13,8 +19,31 @@ img{
     color: white;
 }
 
+.btn-blue{
+    background-color: #2D64E6;
+    color: white;
+}
+
 .rounded-card{
     border-radius: 15px;
+}
+
+.mt-max{
+    margin-top: 150px;
+}
+
+.mb-max{
+    margin-bottom: 150px;
+}
+
+.h-max{
+    height: 100%;
+}
+
+.col-div-5{
+    width: calc(100% / 5);
+    height: 200px;
+    border: 1px solid orange;
 }
 
 /* HEADER */
@@ -51,7 +80,7 @@ img{
     height: 100%;
 }
 
-#game-logo{
+.game-logo{
     width: 90%;
     position: relative;
     right: 10px;
@@ -67,4 +96,41 @@ img{
     #hero{
         padding: 0;
     }
+}
+
+#playstation-5 .row{
+    height: 600px;
+    align-items: center;
+}
+
+#console{
+    height: 100%;
+    background-image: url(../img/playstation-5-thumb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#playstation-5 #components{
+    height: 200px;
+}
+
+.card{
+    height: 200px;
+}
+
+.thumb{
+    width: 50%;
+}
+
+/* hero 2 */
+
+#hero.hero-2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#hero.hero-2 .game-logo{
+    width: 50%;
+    position: relative;
+    left: 10px;
 }
