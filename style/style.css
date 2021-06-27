@@ -134,3 +134,39 @@ img{
     position: relative;
     left: 10px;
 }
+
+/* new-releases */
+
+#new-releases{
+    min-height: 600px;
+    background-color: #1F1F1F;
+}
+
+#catalog {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    line-height:30px;
+}
+.item {
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 auto;
+    height:auto;
+    padding: 20px;
+}
+.item:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
+#catalog img{
+    height: 100%;
+    width: 100%;
+}
