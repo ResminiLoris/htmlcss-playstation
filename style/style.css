@@ -44,6 +44,10 @@ img{
     height: 100%;
 }
 
+.w-max{
+    width: 100%;
+}
+
 .col-div-5{
     width: calc(100% / 5);
     height: 200px;
@@ -145,7 +149,7 @@ img{
     background-color: #1F1F1F;
 }
 
-#catalog {
+.catalog {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -159,7 +163,6 @@ img{
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
-    flex: 1 0 auto;
     height:auto;
     padding: 20px;
 }
@@ -169,7 +172,7 @@ img{
     padding-top:100%;
 }
 
-#catalog img{
+.catalog img{
     height: 100%;
     width: 100%;
 }
@@ -180,6 +183,8 @@ img{
     transform: translateX(-50%);
 }
 
+/* PlayStation 4 */
+
 #playstation-4{
     height: 90vh;
 }
@@ -188,6 +193,8 @@ img{
     background-color: #BEBCBB;
     height: 400px;
 }
+
+/* PlayStation Plus */
 
 #play-plus-cover{
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
