@@ -206,3 +206,9 @@ img{
 .play-plus-text img{
     width: 40%;
 }
+
+/* PlayStation Now */
+
+#playstation-now{
+    background-color: #161C3B;
+}
