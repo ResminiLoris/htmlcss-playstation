@@ -191,16 +191,6 @@ img{
 
 #playstation-plus{
     background-color: #BEBCBB;
-    height: 400px;
-}
-
-/* PlayStation Plus */
-
-#play-plus-cover{
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .play-plus-text img{
